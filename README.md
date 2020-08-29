@@ -21,10 +21,12 @@ The data will be saved to `input` folder. You may have to change the grid spacin
 The file `data` in `input` folder has all the parameters needed for the experiment.
 You can change to the linear case setting `.FALSE.` for `momAdvection`.
 
-
-
 ## How to run the experiment
 
 The current configuration on `code/SIZE.h` works in parallel using 4 cores (see [Documentation](https://mitgcm.readthedocs.io/en/latest/) to learn how to set up for a different number of cores).
 If the experiment is already configured you just have to run `mpirun -np 4 ./mitgcmuv` in `run` folder.
+
+## How to read the data from the output
+
+The notebook `notebooks/analysis.ipynb` its a tutorial that explains how to read and plot the output from this experiment.
 
