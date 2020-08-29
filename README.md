@@ -13,7 +13,7 @@ This is the MITgcm simulation for the Ocean General Circulation in a rotating ta
 
 ## How to generate the initial conditions and forcing
 
-In `notebooks` there is a file called `init.ipynb` that creates the bathymetry and wind forcing.
+In `notebooks` there is a file called `Init.ipynb` that creates the bathymetry and wind forcing.
 The data will be saved to `input` folder. You may have to change the grid spacing in `input/data` or number of points in `code/SIZE.h` if you change the code on the notebooks.
 
 ## How to configure the experiment
@@ -28,5 +28,5 @@ If the experiment is already configured you just have to run `mpirun -np 4 ./mit
 
 ## How to read the data from the output
 
-The notebook `notebooks/analysis.ipynb` its a tutorial that explains how to read and plot the output from this experiment.
+The notebook `notebooks/Analysis.ipynb` its a tutorial that explains how to read and plot the output from this experiment.
 
