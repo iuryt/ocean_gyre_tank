@@ -4,6 +4,8 @@ This is the MITgcm simulation for the Ocean General Circulation in a rotating ta
 
 Based on "Insights of the non-linear solution of Munk’s ocean circulation theory from a rotating tank experiment" - *Ocean and Coastal Research*, 2020.
 
+<img src="https://github.com/iuryt/ocean_gyre_tank/blob/master/notebooks/psi_model.png" data-canonical-src="https://github.com/iuryt/ocean_gyre_tank/blob/master/notebooks/psi_model.png" width="400" height="auto" />
+
 ## How to set up the experiment
 
 1. Follow the [Getting Started](https://mitgcm.readthedocs.io/en/latest/getting_started/getting_started.html) section on MITgcm documentation to set up the model.
